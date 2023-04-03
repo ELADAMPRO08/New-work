@@ -1,0 +1,10 @@
+/*Animation*/
+img{
+    transition: transform .5s ease-in-out;
+    padding:20px 30px;
+}
+img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border:3px solid #fc036b;
+}
